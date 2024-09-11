@@ -29,7 +29,8 @@ public Plugin myinfo =
 	// name = "[INS] Slay Bots", // Modified - Removed Insurgency tag
 	name = "Slay Bots",
 	author = "ozzy",
-	description = "Slay all bots in Insurgency",
+	// description = "Slay all bots in Insurgency", // Modified - Removed Insurgency tag
+	description = "Slay all bots",
 	version = PLUGIN_VERSION,
 	url = ""
 };

@@ -44,7 +44,7 @@ Commands: `!ff`, `!ffe`
 
 Based on [Gravity's Friendly Fire Report](https://github.com/graviti666/Some-Plugins/blob/bdc43b6d64ce7aea855859370fefe5519aa80c85/FriendlyFireReport.sp). Modified for latest SM compiler. See `// Modified` tags.
 
-### [Slay bots](https://github.com/fafa-junhe/My-srcds-plugins/blob/0de19c28b4eb8bdd4d3a04c90c2489c473427f7a/all/slaybots.sp)
+### [Slay bots](scripting/slaybots.sp)
 
 Kill all bots (non-human survivors).
 
