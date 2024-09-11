@@ -14,6 +14,12 @@ Requires [NativeVotes](https://github.com/sapphonie/sourcemod-nativevotes-update
 
 Command: `!randommap`
 
+### [Break Stuff](scripting/breakstuff.sp)
+
+Commands to break glasses and graves.
+
+Commands: `!breakglass`, `!breakgraves`
+
 ### [Reset Survivor Health on Survival Round Starts](scripting/resethealthonsurvivalroundstarts.sp)
 
 Reset all survivors health to 100 when a survival round starts
