@@ -1,6 +1,6 @@
 #pragma newdecls required
 
-#define VERSION "1.0"
+#define VERSION "1.0a"
 
 public Plugin myinfo =
 {
@@ -37,7 +37,7 @@ public Action Event_SurvivalStart(Event event, const char[] name, bool dontBroad
 
 	for (int i = 0; i < target_count; i++)
 	{
-		if (GetClientTeam(i) == 2) { // Survivor
+		if (GetClientTeam(target_list[i]) == 2) { // Survivor
 			SetEntityHealth(target_list[i], 100);
 			SetEntProp(target_list[i], Prop_Send, "m_currentReviveCount", 0); // Reset incpacitate count
 			SetEntProp(target_list[i], Prop_Send, "m_bIsOnThirdStrike", 0); // Remove B+W
